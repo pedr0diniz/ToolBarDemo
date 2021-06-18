@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/beneficiosFragment"
+        android:title="Benefícios"
+        android:icon="@drawable/ic_info"/>
+
+    <item
+        android:id="@+id/respirarFragment"
+        android:title="Respirar"
+        android:icon="@drawable/ic_eco"/>
+
+    <item
+        android:id="@+id/sobreFragment"
+        android:title="Sobre"
+        android:icon="@drawable/ic_help"/>
+
+</menu>

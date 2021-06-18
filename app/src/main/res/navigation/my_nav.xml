@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@+id/respirarFragment">
+
+    <fragment
+        android:id="@+id/beneficiosFragment"
+        android:name="com.zinid.toolbardemo.BeneficiosFragment"
+        android:label="Benefícios"
+        tools:layout="@layout/fragment_beneficios" />
+    <fragment
+        android:id="@+id/respirarFragment"
+        android:name="com.zinid.toolbardemo.RespirarFragment"
+        android:label="Respirar"
+        tools:layout="@layout/fragment_respirar" />
+    <fragment
+        android:id="@+id/sobreFragment"
+        android:name="com.zinid.toolbardemo.SobreFragment"
+        android:label="Sobre"
+        tools:layout="@layout/fragment_sobre" />
+
+</navigation>
